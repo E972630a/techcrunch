@@ -89,7 +89,7 @@ export default class CreateComments extends Component {
     let one = data.filter(it => new RegExp(5).test(it.id))
     return (
       <div>
-        <div className="square__post">
+        <div className="article__post">
           {one.map((data, i) => {
             return (
               <div key={i} >
