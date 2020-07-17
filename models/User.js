@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Properties needed to fill out user information
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
